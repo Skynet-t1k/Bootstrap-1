@@ -20,3 +20,13 @@ body {
     padding: 20px; 
     background: #fff;
   }
+
+  .customh{
+    height: 460px;
+  }
+
+  .customwidth{
+    width: 700px;
+    margin-top: 50px ;
+    margin-bottom: 150px;
+  }
