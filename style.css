@@ -1,5 +1,6 @@
 body {
     margin-top: 10px;
+    background-color: #F7F6F8;
 }
 
 .imgRicette {
@@ -16,16 +17,12 @@ body {
    margin-top: 10vh;
 }
 
-.inner-container {
-    padding: 20px; 
-    background: #fff;
+.container-white {
+    background-color: #fff;
   }
 
-  .customh{
-    height: 460px;
-  }
-
-  .customwidth{
+ 
+.customwidth{
     width: 800px;
     margin-top: 50px ;
     margin-bottom: 150px;
