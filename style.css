@@ -26,7 +26,16 @@ body {
   }
 
   .customwidth{
-    width: 700px;
+    width: 800px;
     margin-top: 50px ;
     margin-bottom: 150px;
+  }
+
+  @media only screen and (max-width: 995px) {
+    .customwidth{
+        width: auto;
+        margin-top: 20px ;
+        margin-bottom: 20px;
+      }
+
   }
