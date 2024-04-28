@@ -1,6 +1,6 @@
 body {
     margin-top: 10px;
-    background-color: #F7F6F8;
+    background-color: #eae9e9;
 }
 
 .imgRicette {
@@ -13,9 +13,7 @@ body {
     width: 50px;
 }
 
-.extraMargin {
-   margin-top: 10vh;
-}
+
 
 .container-white {
     background-color: #fff;
@@ -23,16 +21,20 @@ body {
 
  
 .customwidth{
-    width: 800px;
+    width: 900px;
     margin-top: 50px ;
     margin-bottom: 150px;
+  }
+
+  .btn-light {
+    --bs-btn-bg: #f0f0f0;
+    --bs-btn-border-color: #acbdcd;
   }
 
   @media only screen and (max-width: 995px) {
     .customwidth{
         width: auto;
-        margin-top: 20px ;
-        margin-bottom: 20px;
+        margin: 20px 10px 80px 10px;
       }
 
   }
